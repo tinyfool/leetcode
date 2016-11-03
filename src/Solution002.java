@@ -1,4 +1,28 @@
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+
+    @Override
+    public String toString() {
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.val).append(" -> ");
+
+        ListNode node = this;
+        while(node.next!=null) {
+
+            node = node.next;
+            sb.append(node.val);
+
+            if(node.next!=null) {
+                sb.append(" -> ");
+            }
+        }
+        return sb.toString();
+    }
+}
 
 public class Solution002 {
 
@@ -89,23 +113,3 @@ public class Solution002 {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-
-    @Override
-    public String toString() {
-
-        StringBuilder sb = new StringBuilder();
-        sb.append(this.val).append(" -> ");
-
-        ListNode node = this;
-        while(node.next!=null) {
-
-            node = node.next;
-            sb.append(node.val).append(" -> ");
-        }
-        return sb.toString();
-    }
-}
