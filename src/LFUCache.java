@@ -5,13 +5,18 @@
 // https://leetcode.com/problems/lfu-cache/
 
 
-class numFrequent implements Comparable<numFrequent> {
+class NumFrequent implements Comparable<NumFrequent> {
 
-    int key;
+    int number;
     int Frequent;
 
+    NumFrequent(int number,int Frequent ) {
+
+        this.number = number;
+        this.Frequent = Frequent;
+    }
     @Override
-    public int compareTo(numFrequent o) {
+    public int compareTo(NumFrequent o) {
 
         return new Integer(Frequent).compareTo(new Integer(o.Frequent));
     }
@@ -19,10 +24,10 @@ class numFrequent implements Comparable<numFrequent> {
 
 public class LFUCache {
 
-    private MinPQ<numFrequent> frequentMinPQ;
+    //private MinPQ<numFrequent> frequentMinPQ;
     public LFUCache(int capacity) {
 
-        frequentMinPQ = new MinPQ<>(capacity);
+        //frequentMinPQ = new MinPQ<>(capacity);
     }
 
     public int get(int key) {
@@ -36,9 +41,23 @@ public class LFUCache {
     }
     public static void main(String [] args) {
 
-        testBST();
+        //testBST();
+
+        testMinPQ();
     }
 
+    public static void testMinPQ() {
+
+        MinPQ minPQ = new MinPQ(20);
+        minPQ.insert(new NumFrequent(2,10));
+        minPQ.insert(new NumFrequent(3,8));
+        minPQ.insert(new NumFrequent(4,6));
+        minPQ.insert(new NumFrequent(5,5));
+        minPQ.insert(new NumFrequent(6,3));
+        minPQ.insert(new NumFrequent(7,1));
+
+        minPQ.size();
+    }
     public static void testLFU() {
 
         LFUCache cache = new LFUCache(2);
@@ -293,18 +312,48 @@ class BST {
 
     }
 }
-class MinPQ<Key extends Comparable<Key>> {
+class MinPQ {
 
+    private int n;
+    private NumFrequent[] data;
     MinPQ(int capacity){
 
+        n = 0;
+        data = new NumFrequent[capacity];
     }
 
-    void insert(Key k) {
+    void insert(NumFrequent k) {
 
-
+        data[++n] = k;
+        swim(n);
     }
 
-    Key delMin() {
+    void swim(int k) {
+
+        while (k>1 && less(k/2,k)) {
+
+            exchange(k,k/2);
+            k = k/2;
+        }
+    }
+
+    boolean less(int i, int j) {
+
+        if(data[i].compareTo(data[j])==1)
+
+            return true;
+        else
+            return false;
+    }
+
+    void exchange(int i,int j) {
+
+        NumFrequent temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
+    }
+
+    NumFrequent delMin() {
 
         return null;
     }
@@ -314,7 +363,7 @@ class MinPQ<Key extends Comparable<Key>> {
         return true;
     }
 
-    Key Min() {
+    NumFrequent Min() {
 
         return null;
     }
