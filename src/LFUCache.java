@@ -24,31 +24,95 @@ class NumFrequent implements Comparable<NumFrequent> {
 
 public class LFUCache {
 
-    //private MinPQ<numFrequent> frequentMinPQ;
+    private MinPQ frequentMinPQ;
+    private BST bst;
+    int capacity;
+
     public LFUCache(int capacity) {
 
-        //frequentMinPQ = new MinPQ<>(capacity);
+        this.capacity = capacity;
+        this.frequentMinPQ = new MinPQ(capacity);
+        this.bst = new BST();
     }
 
     public int get(int key) {
 
-        return 0;
+        LFU_BST_TreeNode node =  bst.get(key);
+        if (node == null)
+            return -1;
+
+        int index = frequentMinPQ.getIndex(key);
+        if(index == 0) {
+
+            frequentMinPQ.insert(new NumFrequent(key,1));
+        } else {
+
+            NumFrequent numFrequent = frequentMinPQ.numFrequentForIndex(index);
+            numFrequent.Frequent += 1;
+            frequentMinPQ.sink(index);
+        }
+        return node.value;
     }
 
+    private void setOrUpdate(int key) {
+
+        int index = frequentMinPQ.getIndex(key);
+        if(index == 0) {
+
+            frequentMinPQ.insert(new NumFrequent(key,1));
+        } else {
+
+            NumFrequent numFrequent = frequentMinPQ.numFrequentForIndex(index);
+            numFrequent.Frequent += 1;
+            frequentMinPQ.sink(index);
+        }
+    }
     public void set(int key, int value) {
 
+        if(bst.get(key)!=null) {
 
+            setOrUpdate(key);
+            return;
+        }
+
+        if (frequentMinPQ.size()>=capacity) {
+
+            NumFrequent numFrequent = frequentMinPQ.delMin();
+            bst.del(numFrequent.number);
+        }
+
+        bst.insert(key,value);
+        setOrUpdate(key);
     }
+
     public static void main(String [] args) {
 
-        //testBST();
-
-        testMinPQ();
+        // testBST();
+        // testMinPQ();
+        finalTest();
     }
 
+    public static void finalTest () {
+
+
+        LFUCache cache = new LFUCache( 2 /* capacity */ );
+
+        cache.set(1, 1);
+        cache.set(2, 2);
+        System.out.println(cache.get(1));       // returns 1
+        cache.set(3, 3);    // evicts key 2
+        System.out.println(cache.get(2));       // returns -1 (not found)
+        System.out.println(cache.get(3));       // returns 3.
+        cache.set(4, 4);    // evicts key 1.
+        System.out.println(cache.get(1));       // returns -1 (not found)
+        System.out.println(cache.get(3));       // returns 3
+        System.out.println(cache.get(4));       // returns 4
+
+    }
     public static void testMinPQ() {
 
         MinPQ minPQ = new MinPQ(20);
+
         minPQ.insert(new NumFrequent(2,10));
         minPQ.insert(new NumFrequent(3,8));
         minPQ.insert(new NumFrequent(4,6));
@@ -57,6 +121,9 @@ public class LFUCache {
         minPQ.insert(new NumFrequent(7,1));
 
         minPQ.size();
+
+        NumFrequent min = minPQ.delMin();
+        System.out.print(min);
     }
     public static void testLFU() {
 
@@ -125,201 +192,15 @@ public class LFUCache {
 }
 
 
-/**
- * Your LFUCache object will be instantiated and called as such:
- * LFUCache obj = new LFUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.set(key,value);
- */
-
-
-class LFU_BST_TreeNode {
-
-    int key;
-    int value;
-    LFU_BST_TreeNode left;
-    LFU_BST_TreeNode right;
-    int size;
-
-    public LFU_BST_TreeNode(int key, int val, int size) {
-
-        this.key = key;
-        this.value = val;
-        this.size = size;
-    }
-}
-
-class BST {
-
-    private LFU_BST_TreeNode root;
-
-    BST() {
-        root = null;
-    }
-
-    void insert(int key, int value) {
-
-        root = insert(root,key,value);
-    }
-
-    LFU_BST_TreeNode insert(LFU_BST_TreeNode x, int key, int value) {
-
-        if (x == null) {
-
-            x = new LFU_BST_TreeNode(key, value,1);
-            return x;
-        }
-
-        if (key > x.key) {
-
-            x.right = insert(x.right, key, value);
-        } else if (key < x.key) {
-
-            x.left = insert(x.left, key, value);
-
-        }else {
-
-            x.key = key;
-            x.value = value;
-        }
-        x.size = size(x.left)                                                                                                                            + size(x.right) + 1;
-        return x;
-    }
-
-    void del(int key) {
-
-        del(root, null, key);
-    }
-
-    void del(LFU_BST_TreeNode x, LFU_BST_TreeNode parent, int key) {
-
-        if(x == null)
-            return;
-
-        if (key > x.key) {
-
-            del(x.right, x, key);
-
-        } else if (key < x.key) {
-
-            del(x.left, x, key);
-        }else {
-
-            if (x.right != null) {
-
-                LFU_BST_TreeNode min = delMin(x.right);
-
-                if (parent == null) {
-
-                    root = min;
-                }
-                else if (parent.left == x) {
-
-                    parent.left = min;
-                    parent.size--;
-                } else  {
-
-                    parent.right = min;
-                    parent.size--;
-                }
-                min.left = x.left;
-                if (min!=x.right) {
-                    min.right = x.right;
-                }
-            } else {
-
-                if (parent == null) {
-
-                    if (x.left == null)
-                        root = null;
-                    else  {
-
-                        root = x.left;
-                        root.size = size(x.left);
-                    }
-                }else if (parent.left == x) {
-
-                    parent.left = x.left;
-                    parent.size--;
-                } else  {
-
-                    if (x.left!=null)
-                        parent.right = x.left;
-                    else
-                        parent.right = null;
-                    parent.size--;
-                }
-
-            }
-            if (root !=null)
-                root.size = size(root.left) + size(root.right);
-        }
-    }
-
-    LFU_BST_TreeNode delMin(LFU_BST_TreeNode node) {
-
-        if(node.left == null) {
-            return node;
-        }
-
-        if (node.left.left == null) {
-
-            LFU_BST_TreeNode min = node.left;
-            node.left = null;
-            if (min.right!=null) {
-                node.left = min.right;
-                min.right = null;
-            }
-            return min;
-        } else {
-
-            return delMin(node.left);
-        }
-    }
-
-    int size() {
-
-        return size(root);
-    }
-
-    int size(LFU_BST_TreeNode node) {
-
-        if (node == null)
-            return 0;
-
-        return node.size;
-    }
-    LFU_BST_TreeNode get(int key) {
-
-        return get(root,key);
-    }
-
-    LFU_BST_TreeNode get(LFU_BST_TreeNode x, int key) {
-
-        if (x == null)
-            return null;
-
-        if (key == x.key) {
-
-            return x;
-        } else if (key > x.key) {
-
-            return get(x.right,key);
-        } else {
-
-            return get(x.left,key);
-        }
-
-    }
-}
 class MinPQ {
 
     private int n;
     private NumFrequent[] data;
+
     MinPQ(int capacity){
 
         n = 0;
-        data = new NumFrequent[capacity];
+        data = new NumFrequent[capacity+1];
     }
 
     void insert(NumFrequent k) {
@@ -337,6 +218,24 @@ class MinPQ {
         }
     }
 
+    void sink(int k) {
+
+
+        while (2 * k <= n) {
+
+            int j = 2 * k;
+
+            if (j < n && less(j,j+1))
+                j++;
+
+            if (!less(k,j))
+                break;
+
+            exchange(k,j);
+            k = j;
+        }
+    }
+
     boolean less(int i, int j) {
 
         if(data[i].compareTo(data[j])==1)
@@ -346,6 +245,30 @@ class MinPQ {
             return false;
     }
 
+    NumFrequent numFrequentForIndex(int index) {
+
+        return data[index];
+    }
+
+    int getIndex(int number) {
+
+        for (int i = 1; i <= n; i++) {
+
+            if (data[i].number == number)
+                return i;
+        }
+        return 0;
+    }
+
+    NumFrequent delMin() {
+
+        NumFrequent min = data[1];
+        exchange(1,n--);
+        sink(1);
+        data[n+1] = null;
+        return min;
+    }
+
     void exchange(int i,int j) {
 
         NumFrequent temp = data[i];
@@ -353,10 +276,6 @@ class MinPQ {
         data[j] = temp;
     }
 
-    NumFrequent delMin() {
-
-        return null;
-    }
 
     boolean isEmpty() {
 
@@ -370,7 +289,7 @@ class MinPQ {
 
     int size() {
 
-        return 0;
+        return n;
     }
 
 }
