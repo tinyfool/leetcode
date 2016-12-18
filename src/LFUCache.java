@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
  * Created by haopeiqiang on 2016/12/11.
  */
@@ -25,20 +27,23 @@ class NumFrequent implements Comparable<NumFrequent> {
 public class LFUCache {
 
     private MinPQ frequentMinPQ;
-    private BST bst;
+    private HashMap<Integer,Integer> map;
     int capacity;
 
     public LFUCache(int capacity) {
 
         this.capacity = capacity;
         this.frequentMinPQ = new MinPQ(capacity);
-        this.bst = new BST();
+        this.map = new HashMap<Integer,Integer>();
     }
 
     public int get(int key) {
 
-        LFU_BST_TreeNode node =  bst.get(key);
-        if (node == null)
+        if (capacity ==0)
+            return -1;
+        Integer value =  map.get(key);
+
+        if (value == null)
             return -1;
 
         int index = frequentMinPQ.getIndex(key);
@@ -51,7 +56,7 @@ public class LFUCache {
             numFrequent.Frequent += 1;
             frequentMinPQ.sink(index);
         }
-        return node.value;
+        return value;
     }
 
     private void setOrUpdate(int key) {
@@ -67,10 +72,15 @@ public class LFUCache {
             frequentMinPQ.sink(index);
         }
     }
+
     public void set(int key, int value) {
 
-        if(bst.get(key)!=null) {
+        if (capacity == 0)
+            return;
 
+        if(map.get(key)!=null) {
+
+            map.put(key,value);
             setOrUpdate(key);
             return;
         }
@@ -78,10 +88,11 @@ public class LFUCache {
         if (frequentMinPQ.size()>=capacity) {
 
             NumFrequent numFrequent = frequentMinPQ.delMin();
-            bst.del(numFrequent.number);
+            if (numFrequent!=null)
+                map.remove(numFrequent.number);
         }
 
-        bst.insert(key,value);
+        map.put(key,value);
         setOrUpdate(key);
     }
 
@@ -89,13 +100,57 @@ public class LFUCache {
 
         // testBST();
         // testMinPQ();
-        finalTest();
+        // finalTest();
+        // testcase1();
+        // testcase2();
+        testcase3();
+    }
+
+    public static void testcase1() {
+
+        LFUCache cache = new LFUCache(0);
+        cache.set(0,0);
+        System.out.println(cache.get(0));
+    }
+
+    public static void testcase2() {
+
+
+        //["LFUCache","set","set","set","set","get"]
+        //  [[2],[3,1],[2,1],[2,2],[4,4],[2]]
+
+        LFUCache cache = new LFUCache(2);
+        cache.set(3,1);
+        cache.set(2,1);
+        cache.set(2,2);
+        cache.set(4,4);
+        System.out.println(cache.get(2));
+    }
+
+    public static void testcase3 () {
+
+        //[[3],[1,1],[2,2],[3,3],[4,4],[4],[3],[2],[1],[5,5],[1],[2],[3],[4],[5]]
+        LFUCache cache = new LFUCache(3);
+        cache.set(1,1);
+        cache.set(2,2);
+        cache.set(3,3);
+        cache.set(4,4);
+        System.out.println(cache.get(4));
+        System.out.println(cache.get(3));
+        System.out.println(cache.get(2));
+        System.out.println(cache.get(1));
+        cache.set(5,5);
+        System.out.println(cache.get(1));
+        System.out.println(cache.get(2));
+        System.out.println(cache.get(3));
+        System.out.println(cache.get(4));
+        System.out.println(cache.get(5));
     }
 
     public static void finalTest () {
 
 
-        LFUCache cache = new LFUCache( 2 /* capacity */ );
+        LFUCache cache = new LFUCache(2);
 
         cache.set(1, 1);
         cache.set(2, 2);
@@ -140,55 +195,6 @@ public class LFUCache {
         cache.get(4);       // returns 4
     }
 
-    public static void testBST() {
-
-
-        BST bst = new BST();
-
-        bst.insert(20,1);
-        bst.insert(25,1);
-        bst.insert(15,1);
-        bst.insert(7,1);
-        bst.insert(21,1);
-        bst.insert(29,1);
-        bst.insert(27,1);
-        bst.insert(31,1);
-        bst.insert(26,1);
-
-        System.out.println(bst.get(20).key);
-
-        System.out.println(bst.get(18));
-
-        System.out.println(bst.size());
-
-        bst.del(27);
-        bst.del(31);
-        bst.del(20);
-
-        bst.del(25);
-        bst.del(15);
-
-        bst.del(7);
-        bst.del(21);
-        bst.del(29);
-        bst.del(26);
-
-
-        System.out.println(bst.size());
-
-        bst.insert(20,1);
-        bst.insert(15,1);
-        bst.insert(7,1);
-        bst.insert(6,1);
-
-        bst.del(6);
-        bst.del(7);
-        bst.del(15);
-        bst.del(20);
-
-        System.out.println(bst.size());
-
-    }
 }
 
 
@@ -196,14 +202,19 @@ class MinPQ {
 
     private int n;
     private NumFrequent[] data;
+    private int capacity;
 
     MinPQ(int capacity){
 
         n = 0;
         data = new NumFrequent[capacity+1];
+        this.capacity = capacity;
     }
 
     void insert(NumFrequent k) {
+
+        if (capacity==0)
+            return;
 
         data[++n] = k;
         swim(n);
@@ -211,7 +222,7 @@ class MinPQ {
 
     void swim(int k) {
 
-        while (k>1 && less(k/2,k)) {
+        while (k>1 && less2Swim(k/2,k)) {
 
             exchange(k,k/2);
             k = k/2;
@@ -238,8 +249,15 @@ class MinPQ {
 
     boolean less(int i, int j) {
 
-        if(data[i].compareTo(data[j])==1)
+        if(data[i].compareTo(data[j])==1 || data[i].compareTo(data[j])==0)
+            return true;
+        else
+            return false;
+    }
 
+    boolean less2Swim(int i, int j) {
+
+        if(data[i].compareTo(data[j])==1)
             return true;
         else
             return false;
@@ -262,11 +280,21 @@ class MinPQ {
 
     NumFrequent delMin() {
 
+        if (capacity==0)
+            return null;
+
         NumFrequent min = data[1];
         exchange(1,n--);
         sink(1);
         data[n+1] = null;
         return min;
+    }
+
+    NumFrequent Min() {
+
+        if (capacity==0)
+            return null;
+        return data[1];
     }
 
     void exchange(int i,int j) {
@@ -278,14 +306,12 @@ class MinPQ {
 
 
     boolean isEmpty() {
-
-        return true;
+        if( n == 0)
+            return true;
+        else
+            return false;
     }
 
-    NumFrequent Min() {
-
-        return null;
-    }
 
     int size() {
 
