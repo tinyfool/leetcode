@@ -40,6 +40,6 @@ public class Solution003 {
 
 
         Solution003 s3 = new Solution003();
-        System.out.println(s3.lengthOfLongestSubstring("dvdf"));
+        System.out.println(s3.lengthOfLongestSubstring("bbbbb"));
     }
 }
