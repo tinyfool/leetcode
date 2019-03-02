@@ -2,7 +2,7 @@ package p076;
 
 import java.util.HashMap;
 
-public class Solution1 {
+class Solution1 {
 
     public String minWindow(String s, String t) {
 
@@ -23,28 +23,31 @@ public class Solution1 {
             char c = s.charAt(right);
             if(tdict.containsKey(c)) {
 
-                sdict.put(c, sdict.get(c)+1);
-                if(sdict.get(c)==tdict.get(c)) {
+                sdict.put(c, sdict.getOrDefault(c,0)+1);
+                int scount = sdict.get(c);
+                int tcount = tdict.get(c);
 
+                if(scount==tcount) {
 
+                    count++;
+                    //System.out.println(" count++;");
                 }
             }
-            if(count<t.length())
+            if(count<tdict.size())
                 continue;
-            while (count>=t.length()) {
-                String fit = s.substring(left,right+1);
-                //System.out.println(fit);
+            while (count>=tdict.size()) {
+
                 if (right-left+1<=min)  {
+                    String fit = s.substring(left,right+1);
                     ans = fit;
                     min = right-left+1;
                 }
                 char cl = s.charAt(left);
                 left++;
-                if (dict.containsKey(cl)) {
+                if (tdict.containsKey(cl)) {
 
-                    dict.put(cl,dict.get(cl)-1);
-                    //System.out.println(dict.get(cl));
-                    if(dict.get(cl)<=0) {
+                    sdict.put(cl,sdict.getOrDefault(cl,0)-1);
+                    if(sdict.get(cl)<tdict.get(cl)) {
                         count--;
                     }
                 }
@@ -54,6 +57,7 @@ public class Solution1 {
     }
 
     public static void main(String [] args) {
+
         String s = "ADOBECODEBANC";
         String t = "ABC";
         Solution1 s1 = new Solution1();
@@ -64,7 +68,5 @@ public class Solution1 {
         t = "aa";
         ans = s1.minWindow(s,t);
         System.out.println(ans);
-
     }
-
 }
