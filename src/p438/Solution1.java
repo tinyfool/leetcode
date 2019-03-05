@@ -91,7 +91,5 @@ public class Solution1 {
         p = reader.readLine();
         list = solution.findAnagrams(s,p);
         System.out.println(list);
-
-
     }
 }
