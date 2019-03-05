@@ -65,7 +65,7 @@ public class Solution2 {
         String[] words = new String[]{"foo","bar"};
         Solution2 solution = new Solution2();
         List ans;
-        
+
         ans = solution.findSubstring(s,words);
         System.out.println(ans);
 

@@ -1,13 +1,9 @@
-import com.sun.xml.internal.fastinfoset.util.StringArray;
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Vector;
+package p003;
 
 /**
  * Created by haopeiqiang on 2016/10/16.
  */
-public class Solution003 {
+public class Solution1 {
 
     public int lengthOfLongestSubstring(String s) {
 
@@ -39,7 +35,7 @@ public class Solution003 {
     public static void main(String [] args) {
 
 
-        Solution003 s3 = new Solution003();
+        Solution1 s3 = new Solution1();
         System.out.println(s3.lengthOfLongestSubstring("bbbbb"));
     }
 }

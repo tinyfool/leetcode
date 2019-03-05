@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p438/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p438/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p003/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p030/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p030/Solution2.java" afterDir="false" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,14 +24,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/p030/Solution2.java">
+        <entry file="file://$PROJECT_DIR$/src/p003/Solution2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+            <state relative-caret-position="-34">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
-                <element signature="e#1342#1351#0" expanded="true" />
-                <element signature="e#512#528#0" expanded="true" />
-                <element signature="e#917#934#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#339#350#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +68,8 @@
         <option value="$PROJECT_DIR$/src/p438/Solution1.java" />
         <option value="$PROJECT_DIR$/src/p030/Solution1.java" />
         <option value="$PROJECT_DIR$/src/p030/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/p003/Solution003.java" />
+        <option value="$PROJECT_DIR$/src/p003/Solution2.java" />
       </list>
     </option>
   </component>
@@ -100,7 +102,7 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="p030" type="462c0819:PsiDirectoryNode" />
+              <item name="p003" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -111,7 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551754647053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551759389461" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -138,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution2 (1)">
+  <component name="RunManager" selected="Application.Solution2 (2)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -241,20 +243,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p076.Solution1" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p076.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p438.Solution1" />
       <module name="leetcode" />
@@ -283,6 +271,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p003.Solution1" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p003.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p030.Solution2" />
       <module name="leetcode" />
@@ -297,13 +299,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p076.Solution2" />
+    <configuration name="Solution2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p003.Solution2" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p076.*" />
+          <option name="PATTERN" value="p003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,19 +378,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1 (1)" />
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution1 (2)" />
       <item itemvalue="Application.Solution1 (3)" />
       <item itemvalue="Application.Solution2 (1)" />
+      <item itemvalue="Application.Solution1" />
+      <item itemvalue="Application.Solution2 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2 (2)" />
+        <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution1 (3)" />
         <item itemvalue="Application.Solution1 (2)" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +418,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.24671532" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5109489" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3328467" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -507,6 +509,10 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="s.length()-wordlength" language="JAVA" />
+        <watch expression="charset['p']" language="JAVA" />
+        <watch expression="charset['w']" language="JAVA" />
+        <watch expression="charset['k']" language="JAVA" />
+        <watch expression="charset['e']" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -528,6 +534,36 @@
       </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>charset['e']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charset['k']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charset['p']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chaeset['p']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>charset['w']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chatset['p']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>s.length()-wordlength</expression-string>
         <language-id>JAVA</language-id>
@@ -568,13 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -669,11 +698,36 @@
     <entry file="file://$PROJECT_DIR$/src/p030/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#1342#1351#0" expanded="true" />
             <element signature="e#512#528#0" expanded="true" />
             <element signature="e#917#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p003/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p003/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#350#0" expanded="true" />
           </folding>
         </state>
       </provider>
