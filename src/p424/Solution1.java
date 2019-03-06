@@ -40,11 +40,11 @@ public class Solution1 {
 
         int rc = 0;
         int maxC = 0;
-        int max = Integer.MAX_VALUE;
+        int max = 0;
         if(nums.size()==0||nums.size()==1)
             return 0;
         for (char c:nums) {
-            if(map[c]<max) {
+            if(map[c]>max) {
                 max = map[c];
                 maxC = c;
             }
