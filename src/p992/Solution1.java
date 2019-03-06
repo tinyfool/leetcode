@@ -1,6 +1,5 @@
 package p992;
 
-import javax.swing.text.html.HTMLDocument;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
