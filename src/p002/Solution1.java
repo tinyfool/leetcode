@@ -1,4 +1,5 @@
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+package p002;
+
 class ListNode {
     int val;
     ListNode next;
@@ -24,43 +25,11 @@ class ListNode {
     }
 }
 
-public class Solution002 {
+public class Solution1 {
 
-    public static void main(String [] args) {
 
-        Solution002 solution = new Solution002();
 
-        ListNode node = new ListNode(2);
-        ListNode l1 = node;
-        ListNode o1 = node;
-
-        node = new ListNode(4);
-        o1.next = node;
-        o1 = node;
-
-        node = new ListNode(3);
-        o1.next = node;
-
-        System.out.println(l1);
-
-        node = new ListNode(5);
-        ListNode l2 = node;
-        ListNode o2 = node;
-
-        node = new ListNode(6);
-        o2.next = node;
-        o2 = node;
-
-//        node = new ListNode(4);
-//        o2.next = node;
-
-        System.out.println(l2);
-
-        node = solution.addTwoNumbers02(l1,l2);
-        System.out.println(node);
-    }
-
-    public ListNode addTwoNumbers01(ListNode l1, ListNode l2) {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int nVal = l1.val+l2.val;
         int add = 0;
@@ -112,27 +81,39 @@ public class Solution002 {
         return ret;
     }
 
-    public ListNode addTwoNumbers02(ListNode l1, ListNode l2) {
+    public static void main(String [] args) {
 
-        ListNode node = new ListNode(0);
-        ListNode curr = node;
-        ListNode p = l1, q = l2;
-        int carry = 0;
+        Solution1 solution = new Solution1();
 
-        while (p != null || q != null) {
+        int[] num1 = new int[]{2,4,3};
+        int[] num2 = new int[]{5,6,4};
 
-            int x = (p != null) ? p.val : 0;
-            int y = (q != null) ? q.val : 0;
-            int sum = carry + x + y;
-            carry = sum / 10;
-            curr.next = new ListNode(sum %10);
-            curr = curr.next;
-            if (p != null) p = p.next;
-            if (q != null) q = q.next;
+        ListNode n1 = new ListNode(0);
+        ListNode node = n1;
+
+        for(int i=0;i<num1.length;i++) {
+            node.val = num1[i];
+            if(i<num1.length-1) {
+                node.next = new ListNode(0);
+                node = node.next;
+            }
         }
-        if(carry>0)
-            curr.next = new ListNode(carry);
-        return node.next;
+        System.out.println(n1);
+
+        ListNode n2 = new ListNode(0);
+        node = n2;
+        for(int i=0;i<num2.length;i++) {
+            node.val = num2[i];
+            if(i<num1.length-1) {
+                node.next = new ListNode(0);
+                node = node.next;
+            }
+        }
+        System.out.println(n2);
+
+
+        node = solution.addTwoNumbers(n1,n2);
+        System.out.println(node);
     }
 }
 
