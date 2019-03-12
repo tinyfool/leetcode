@@ -1,7 +1,9 @@
+package p0004;
+
 /**
  * Created by haopeiqiang on 2016/10/16.
  */
-public class Solution004 {
+public class Solution1 {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
@@ -57,26 +59,26 @@ public class Solution004 {
 
     public static void test1() {
 
-        Solution004 s4 = new Solution004();
+        Solution1 solution1 = new Solution1();
         int[] nums1 = {1,3};
         int[] nums2 = {2};
-        System.out.println(s4.findMedianSortedArrays(nums1,nums2));
+        System.out.println(solution1.findMedianSortedArrays(nums1,nums2));
     }
 
     public static void test2() {
 
-        Solution004 s4 = new Solution004();
+        Solution1 solution1 = new Solution1();
         int[] nums1 = {1,2};
         int[] nums2 = {3,4};
-        System.out.println(s4.findMedianSortedArrays(nums1,nums2));
+        System.out.println(solution1.findMedianSortedArrays(nums1,nums2));
     }
 
     public static void test3() {
 
-        Solution004 s4 = new Solution004();
+        Solution1 solution1 = new Solution1();
         int[] nums1 = {};
         int[] nums2 = {2,3};
-        System.out.println(s4.findMedianSortedArrays(nums1,nums2));
+        System.out.println(solution1.findMedianSortedArrays(nums1,nums2));
     }
 
 }
