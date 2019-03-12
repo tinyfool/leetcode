@@ -1,6 +1,8 @@
 package p002;
 
 class ListNode {
+
+    //make this class to support ListNode, and provide debug method
     int val;
     ListNode next;
     ListNode(int x) { val = x; }
@@ -27,8 +29,6 @@ class ListNode {
 
 public class Solution1 {
 
-
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int nVal = l1.val+l2.val;
@@ -37,9 +37,6 @@ public class Solution1 {
 
             nVal = nVal - 10;
             add = 1;
-        }else {
-
-            add = 0;
         }
         ListNode newNode = new ListNode(nVal);
         ListNode ret = newNode;
@@ -71,9 +68,6 @@ public class Solution1 {
 
                 nVal = nVal - 10;
                 add = 1;
-            }else {
-
-                add = 0;
             }
             newNode = new ListNode(nVal);
             oldNode.next = newNode;
@@ -104,7 +98,7 @@ public class Solution1 {
         node = n2;
         for(int i=0;i<num2.length;i++) {
             node.val = num2[i];
-            if(i<num1.length-1) {
+            if(i<num2.length-1) {
                 node.next = new ListNode(0);
                 node = node.next;
             }

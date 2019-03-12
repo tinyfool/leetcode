@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p002/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution147.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution147.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p002/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p002/Solution1.java" afterDir="false" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p002/Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+            <state relative-caret-position="60">
+              <caret line="31" selection-start-line="31" selection-end-line="81" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -133,10 +131,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552058033954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552378936857" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -166,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution1">
+  <component name="RunManager" selected="Application.Solution1 (2)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -297,6 +296,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p002.Solution1" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p002.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p076.Solution1" />
       <module name="leetcode" />
@@ -401,14 +414,15 @@
       <item itemvalue="Application.Solution1 (1)" />
       <item itemvalue="Application.Example1" />
       <item itemvalue="Application.Solution1" />
+      <item itemvalue="Application.Solution1 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1 (2)" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Example1" />
         <item itemvalue="Application.Solution1 (1)" />
-        <item itemvalue="Application.Solution2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -432,10 +446,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="697" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21243942" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21890146" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -452,7 +466,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080776" side_tool="true" weight="0.24958678" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.31900826" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.31900826" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32561985" />
       <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.37190083" />
@@ -840,15 +854,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution147.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p002/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="31" selection-start-line="31" selection-end-line="81" selection-end-column="5" />
         </state>
       </provider>
     </entry>
