@@ -1,4 +1,4 @@
-package p002;
+package p0002;
 
 class ListNode {
 

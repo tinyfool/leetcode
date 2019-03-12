@@ -1,8 +1,6 @@
-package p001;
+package p0001;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by haopeiqiang on 2016/10/16.

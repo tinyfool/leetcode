@@ -1,6 +1,4 @@
-package p076;
-
-import java.util.HashMap;
+package p0076;
 
 class Solution2 {
 

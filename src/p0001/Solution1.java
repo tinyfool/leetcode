@@ -1,8 +1,4 @@
-package p001;
-import java.util.HashMap;
-import java.util.Map;
-
-import static javafx.scene.input.KeyCode.M;
+package p0001;
 
 /**
  * Created by haopeiqiang on 2016/10/16.
