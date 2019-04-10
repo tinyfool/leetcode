@@ -4,7 +4,7 @@ import p0567.Solution1;
 
 import java.util.HashMap;
 
-public class Solution4 { //DP tabulation with hashmap
+public class Solution4 { //DP tabulation with array
 
     int[] mem = new int[50];
 

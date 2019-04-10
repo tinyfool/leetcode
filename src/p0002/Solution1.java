@@ -31,6 +31,7 @@ public class Solution1 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
+        //初始化结果节点
         int nVal = l1.val+l2.val;
         int add = 0;
         if(nVal>=10) {
@@ -45,7 +46,9 @@ public class Solution1 {
         while (true) {
 
             oldNode = newNode;
-            if(l1.next==null && l2.next==null){
+
+
+            if(l1.next==null && l2.next==null){ //如果都没有下一个节点则退出
 
                 if(add ==1) {
                     newNode = new ListNode(1);
@@ -55,20 +58,21 @@ public class Solution1 {
             }
             int v1 = 0;
             int v2 = 0;
-            if(l1.next != null) {
+            if(l1.next != null) { //如果还有l1
                 l1 = l1.next;
                 v1 = l1.val;
             }
-            if(l2.next != null) {
+            if(l2.next != null) { //如果还有l2
                 l2 = l2.next;
                 v2 = l2.val;
             }
             nVal = v1+v2+add;
-            if(nVal>=10) {
+            if(nVal>=10) {     //如果有进位则add为1
 
                 nVal = nVal - 10;
                 add = 1;
-            }
+            }else
+                add = 0;
             newNode = new ListNode(nVal);
             oldNode.next = newNode;
         }

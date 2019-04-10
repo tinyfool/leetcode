@@ -1,4 +1,4 @@
-package example;
+package example.SlidingWindow;
 
 public class Example2 {
 
