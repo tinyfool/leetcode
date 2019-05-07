@@ -1,18 +1,23 @@
 package p0023;
 
-public class Solution1 {
+public class Solution2 {
 
     public ListNode mergeKLists(ListNode[] lists) {
 
-        if(lists.length==0)
-            return null;
-        ListNode result = lists[0];
-        for(int i = 1;i<lists.length;i++) {
-            result = mergeTwoLists(result,lists[i]);
-        }
-        return result;
+        mergeK(lists,0,lists.length-1);
+        return lists[0];
     }
 
+    void mergeK(ListNode[] lists,int p,int r) {
+
+        if (p<r) {
+
+            int q = (p+r)/2;
+            mergeK(lists,p,q);
+            mergeK(lists,q+1,r);
+            lists[p] = mergeTwoLists(lists[p],lists[q+1]);
+        }
+    }
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
@@ -50,8 +55,8 @@ public class Solution1 {
         ListNode node3 = new ListNode(2);
         node3.next = new ListNode(6);
 
-        ListNode[] input = new ListNode[]{node1,node2,node3};
-        Solution1 solution1 = new Solution1();
+        ListNode[] input = new ListNode[]{null,node1,node2,node3};
+        Solution2 solution1 = new Solution2();
         ListNode result = solution1.mergeKLists(input);
 
         if (result!=null)
