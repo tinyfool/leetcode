@@ -1,4 +1,4 @@
-package example.DivideAndConquer;
+package CLRS.DivideAndConquer;
 
 public class MergeSort {
 

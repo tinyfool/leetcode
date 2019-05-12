@@ -65,3 +65,5 @@ public class Solution2 {
 }
 
 
+//Runtime: 3 ms, faster than 93.61% of Java online submissions for Merge k Sorted Lists.
+//Memory Usage: 40.4 MB, less than 24.33% of Java online submissions for Merge k Sorted Lists.
