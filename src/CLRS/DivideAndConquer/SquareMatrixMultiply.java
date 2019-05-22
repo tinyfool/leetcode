@@ -95,7 +95,26 @@ public class SquareMatrixMultiply {
         }
         return C;
     }
-    private void merge(double[][] c, int half, double[][] c11, double[][] c12, double[][] c21, double[][] c22) {
+
+    double[][] split(double[][] A,int m,int n) {
+
+        int half = A.length/2;
+        double[][] C = new double[half][half];
+
+        for (int i=0;i<half;i++) {
+            for (int j=0;j<half;j++) {
+                C[i][j] = A[i+m*half][j+n*half];
+            }
+        }
+        return C;
+    }
+
+    private void merge(double[][] c,
+                       int half,
+                       double[][] c11,
+                       double[][] c12,
+                       double[][] c21,
+                       double[][] c22) {
         for(int i=0;i<half;i++) {
             for(int j=0;j<half;j++) {
 
@@ -129,18 +148,6 @@ public class SquareMatrixMultiply {
         return ret;
     }
 
-    double[][] split(double[][] A,int m,int n) {
-
-        int half = A.length/2;
-        double[][] C = new double[half][half];
-
-        for (int i=0;i<half;i++) {
-            for (int j=0;j<half;j++) {
-                C[i][j] = A[i+m*half][j+n*half];
-            }
-        }
-        return C;
-    }
 
     public static void main(String[] args) {
 

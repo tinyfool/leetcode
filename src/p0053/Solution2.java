@@ -5,26 +5,53 @@ public class Solution2 { //Divide and Conquer
 
     public int maxSubArray(int[] nums) {
 
-        int max = maxSubArrayFun(nums,0,nums.length);
-        return max;
+        int[] max = maximumSubarray(nums,0,nums.length-1);
+        return max[2];
     }
 
-    private int maxSubArrayFun(int[] A,int p,int r) {
+    int[] maxCrossingSubarray(int[] A,int low, int mid, int high) {
 
-        int q = r/2;
-        int leftmax = maxSubArrayFun(A,p,q);
-        int rightmax = maxSubArrayFun(A,q+1,r);
-        int middlemax = maxMiddleArray(A,p,q,r);
+        int leftSum = Integer.MIN_VALUE;
+        int rightSum = Integer.MIN_VALUE;
 
-        int max = Math.max(leftmax,rightmax);
-        max = Math.max(max,middlemax);
-        return max;
+        int sum = 0;
+        int maxLeft = mid;
+        int maxRight = mid+1;
+
+        for (int i = mid;i>=low;i--) {
+            sum += A[i];
+            if(sum>leftSum) {
+                leftSum = sum;
+                maxLeft = i;
+            }
+        }
+        sum = 0;
+        for (int j = mid+1;j<=high;j++) {
+            sum += A[j];
+            if (sum>rightSum) {
+                rightSum = sum;
+                maxRight = j;
+            }
+        }
+        return new int[]  {maxLeft,maxRight,leftSum+rightSum};
     }
 
-    private int maxMiddleArray(int[] A,int p,int q,int r) {
+    int[] maximumSubarray(int[] A, int low, int high) {
 
-
-        return 0;
+        if(high==low)
+            return (new int[]{low,high,A[low]});
+        else {
+            int mid = (low+high)/2;
+            int[] left = maximumSubarray(A,low,mid);
+            int[] right = maximumSubarray(A,mid+1,high);
+            int[] cross = maxCrossingSubarray(A,low,mid,high);
+            if (left[2] >= right[2] && left[2] >= cross[2])
+                return left;
+            else if (right[2] >= left[2] && right[2] >= cross[2]) {
+                return right;
+            } else
+                return cross;
+        }
     }
 
     public static void main(String[] args){
