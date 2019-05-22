@@ -2,7 +2,7 @@ package p0169;
 
 import java.util.HashMap;
 
-//hashmap approach
+//hash-map approach
 public class Solution1 {
 
     public int majorityElement(int[] nums) {
