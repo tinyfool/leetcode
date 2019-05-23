@@ -3,11 +3,9 @@ package p0240;
 
 import java.util.Arrays;
 
-//sort approach running time 610 ms	
+//sort approach running time 610 ms
 public class Solution4 {
-
-
-
+    
     public boolean searchMatrix(int[][] matrix, int target) {
 
         if(matrix.length ==0)

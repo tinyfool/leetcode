@@ -13,9 +13,6 @@ public class Solution2 {
 
     boolean searchMatrixfunV(int[][] matrix, int target,int i1,int i2) {
 
-        StringBuilder sb = new StringBuilder();
-        sb.append(i1).append(":").append(i2).append(":V");
-        //System.out.println(sb.toString());
         if (i1==i2)
             return searchMatrixfunH(matrix[i1],target,0,matrix[i1].length-1);
         int mid = (i1+i2)/2;
@@ -37,10 +34,6 @@ public class Solution2 {
     }
 
     boolean searchMatrixfunH(int[] line,int target,int lo,int hi) {
-
-        StringBuilder sb = new StringBuilder();
-        sb.append(lo).append(":").append(hi).append(":H");
-        //System.out.println(sb.toString());
 
         if (lo == hi )
             return  line[lo]==target;
