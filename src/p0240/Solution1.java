@@ -1,5 +1,6 @@
 package p0240;
 
+//vertical and horizontal approach running time 52 ms
 public class Solution1 {
     public boolean searchMatrix(int[][] matrix, int target) {
 

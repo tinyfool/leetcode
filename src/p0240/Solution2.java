@@ -1,5 +1,6 @@
 package p0240;
 
+//vertical and horizontal binary search
 public class Solution2 {
     public boolean searchMatrix(int[][] matrix, int target) {
 

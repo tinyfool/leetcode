@@ -1,5 +1,6 @@
 package p0240;
 
+//split to 4 area approch running time 7 ms
 public class Solution3 {
     public boolean searchMatrix(int[][] matrix, int target) {
 

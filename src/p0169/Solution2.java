@@ -33,6 +33,8 @@ public class Solution2 {
         }
         return count;
     }
+
+
     public static void main(String[] args) {
 
 //        Input: [3,2,3]
