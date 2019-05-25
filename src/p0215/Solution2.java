@@ -9,7 +9,7 @@ public class Solution2 {
     int heapsize;
 
     void initheap(int[] A) {
-        
+
         _A = A.clone();
         heapsize = A.length;
     }
@@ -60,20 +60,6 @@ public class Solution2 {
         }
     }
 
-    void heapsort() {
-        buildMaxHeap();
-        for (int i=_A.length;i>=2;i--) {
-            exchange(i,1);
-            heapsize--;
-            maxHeapify(1);
-        }
-    }
-
-    int heapMaximun() {
-
-        return _A[0];
-    }
-
     int extractMax() throws Exception {
 
         if (heapsize<1)
@@ -85,38 +71,6 @@ public class Solution2 {
         return max;
     }
 
-    void increaseKey(int i,int key) throws Exception {
-
-        if (key<_A[i-1])
-            throw new Exception("new key is smaller then the current key");
-        _A[i-1] = key;
-        while (i>0 && parent(i)-1>=0 && _A[parent(i)-1]<_A[i-1]) {
-
-            exchange(parent(i),i);
-            i = parent(i);
-        }
-    }
-
-    void insertKey(int key) throws Exception {
-
-        heapsize++;
-        if(heapsize>_A.length) {
-            int[] A = new int[heapsize*2];
-            for(int i=0;i<_A.length;i++){
-                A[i]=_A[i];
-            }
-            _A = A;
-        }
-        _A[heapsize-1] = Integer.MIN_VALUE;
-        increaseKey(heapsize,key);
-    }
-
-    void buildHeapwithInsert() throws Exception {
-        heapsize = 1;
-        for(int i=2;i<=_A.length;i++) {
-            insertKey(_A[i-1]);
-        }
-    }
 
     public int findKthLargest(int[] nums, int k)  {
 

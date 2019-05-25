@@ -12,7 +12,7 @@ public class HeapSort {
 
     int parent(int i){
 
-        return i>>2;
+        return i>>1;
     }
 
     int left(int i) {
