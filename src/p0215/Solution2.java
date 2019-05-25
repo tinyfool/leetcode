@@ -9,9 +9,11 @@ public class Solution2 {
     int heapsize;
 
     void initheap(int[] A) {
+        
         _A = A.clone();
         heapsize = A.length;
     }
+
     int parent(int i){
 
         return i/2;

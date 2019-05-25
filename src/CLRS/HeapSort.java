@@ -9,9 +9,10 @@ public class HeapSort {
         _A = A.clone();
         heapsize = A.length;
     }
+
     int parent(int i){
 
-        return i/2;
+        return i>>2;
     }
 
     int left(int i) {
@@ -107,11 +108,13 @@ public class HeapSort {
     }
 
     void buildHeapwithInsert() throws Exception {
+
         heapsize = 1;
         for(int i=2;i<=_A.length;i++) {
             insertKey(_A[i-1]);
         }
     }
+
     public static void main(String[] args) throws Exception {
 
         HeapSort hs = new HeapSort();
@@ -145,6 +148,12 @@ public class HeapSort {
 
         hs.initheap(A);
         hs.buildHeapwithInsert();
+        System.out.println(hs._A);
+
+        int[] B = {14,1,8,3,2,4,7,9,10,16};
+        hs.initheap(B);
+        hs.buildMaxHeap();
+        hs.heapsort();
         System.out.println(hs._A);
     }
 
