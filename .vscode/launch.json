@@ -8,6 +8,13 @@
       "type": "java",
       "name": "CodeLens (Launch) - KthLargest",
       "request": "launch",
+      "mainClass": "p0703.solution2.KthLargest",
+      "projectName": "leetcode_d488e96c"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - KthLargest",
+      "request": "launch",
       "mainClass": "p0703.solution1.KthLargest",
       "projectName": "leetcode_d488e96c"
     },

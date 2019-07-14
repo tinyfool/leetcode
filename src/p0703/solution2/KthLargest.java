@@ -71,7 +71,7 @@ public class KthLargest {
             return min;
         }
 
-        void insertAtBegin(int n)  {
+        void replaceTop(int n)  {
 
             _A[0] = n;
             minHeapify(1);
@@ -91,7 +91,7 @@ public class KthLargest {
 
         largestK = new int[k];
         for(int i=0;i<k;i++) {
-                largestK[i] = Integer.MIN_VALUE;
+            largestK[i] = Integer.MIN_VALUE;
         }
         minheap.initheap(largestK);
         minheap.buildMinHeap();
@@ -99,8 +99,6 @@ public class KthLargest {
             add(num);
         }
     }
-
-
 
     public int add(int val) {
 
@@ -110,7 +108,7 @@ public class KthLargest {
         }
         else {
 
-            minheap.insertAtBegin(val);
+            minheap.replaceTop(val);
             int min = minheap.getMin();
             return min;
         }
