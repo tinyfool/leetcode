@@ -1,5 +1,8 @@
 package p0703.solution1;
 
+// Runtime: 61 ms, faster than 66.06% of Java online submissions for Kth Largest Element in a Stream.
+// Memory Usage: 48.1 MB, less than 42.98% of Java online submissions for Kth Largest Element in a Stream.
+
 public class KthLargest {
 
     class MinHeap {
@@ -70,11 +73,10 @@ public class KthLargest {
             return min;
         }
 
-        void insertatEnd(int n)  {
+        void replaceTop(int n)  {
 
-            _A[_A.length-1] = n;
-            heapsize = _A.length;
-            buildMinHeap();
+            _A[0] = n;
+            minHeapify(1);
         }
 
         int getMin() {
@@ -98,7 +100,6 @@ public class KthLargest {
             try {
                 largestK[i] = extractMax();
             } catch (Exception e) {
-                e.printStackTrace();
                 largestK[i] = Integer.MIN_VALUE;
             }
         }
@@ -186,20 +187,14 @@ public class KthLargest {
     }
 
     public int add(int val) {
-//        if(empty)
-//            return val;
+
         int middleVal = minheap.getMin();
         if (val<middleVal) {
            return middleVal;
         }
         else {
 
-            try {
-                middleVal = minheap.extractMin();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            minheap.insertatEnd(val);
+            minheap.replaceTop(val);
             int min = minheap.getMin();
             return min;
         }
@@ -211,21 +206,21 @@ public class KthLargest {
         int[] arr = {4,5,8,2};
         KthLargest kthLargest;
 
-//        kthLargest = new KthLargest(k, arr);
-//        System.out.println(kthLargest.add(3));   // returns 4
-//        System.out.println(kthLargest.add(5));   // returns 5
-//        System.out.println(kthLargest.add(10));  // returns 5
-//        System.out.println(kthLargest.add(9));   // returns 8
-//        System.out.println(kthLargest.add(4));   // returns 8
+       kthLargest = new KthLargest(k, arr);
+       System.out.println(kthLargest.add(3));   // returns 4
+       System.out.println(kthLargest.add(5));   // returns 5
+       System.out.println(kthLargest.add(10));  // returns 5
+       System.out.println(kthLargest.add(9));   // returns 8
+       System.out.println(kthLargest.add(4));   // returns 8
 
-//        int k1 = 1;
-//        int[] arr1={};
-//        kthLargest = new KthLargest(k1, arr1);
-//        System.out.println(kthLargest.add(-3));   // returns -3
-//        System.out.println(kthLargest.add(-2));   // returns -2
-//        System.out.println(kthLargest.add(-2));  // returns -2
-//        System.out.println(kthLargest.add(0));   // returns 0
-//        System.out.println(kthLargest.add(4));   // returns 4
+       int k1 = 1;
+       int[] arr1={};
+       kthLargest = new KthLargest(k1, arr1);
+       System.out.println(kthLargest.add(-3));   // returns -3
+       System.out.println(kthLargest.add(-2));   // returns -2
+       System.out.println(kthLargest.add(-2));  // returns -2
+       System.out.println(kthLargest.add(0));   // returns 0
+       System.out.println(kthLargest.add(4));   // returns 4
 
         int k2 = 2;
         int[] arr2 = {0};
