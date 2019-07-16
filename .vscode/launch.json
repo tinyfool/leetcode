@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Solution1",
+      "request": "launch",
+      "mainClass": "p0056.Solution1",
+      "projectName": "leetcode_d488e96c"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - KthLargest",
       "request": "launch",
       "mainClass": "p0703.solution2.KthLargest",
