@@ -1,17 +1,31 @@
-package p0056;
+package p0057;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-//Runtime: 6 ms, faster than 88.21% of Java online submissions for Merge Intervals.
-//Memory Usage: 41.6 MB, less than 62.32% of Java online submissions for Merge Intervals.
+// Runtime: 3 ms, faster than 24.68% of Java online submissions for Insert Interval.
+// Memory Usage: 41.5 MB, less than 43.37% of Java online submissions for Insert Interval.
 
 public class Solution1 {
-  
-  public int[][] merge(int[][] intervals) {
-    if(intervals.length==0)
-    return new int[0][];
+
+    public int[][] insert(int[][] intervals, int[] newInterval) {
+      ArrayList<int []> ni = new ArrayList<>();
+      for (int i = 0; i < intervals.length; i++){
+        ni.add(intervals[i]);
+      }
+      ni.add(newInterval);
+      int[][] oa = new int[ni.size()][2];
+      for (int i = 0; i < ni.size(); i++){
+        oa[i] = ni.get(i);
+      }
+      return merge(oa);
+    }
+
+    public int[][] merge(int[][] intervals) {
+      
+      if(intervals.length==0)
+        return new int[0][];
 
       Arrays.sort(intervals, new Comparator<int[]>() {
           
@@ -57,25 +71,14 @@ public class Solution1 {
 
   public static void main(String[] args) {
     
-    Solution1 s1 = new Solution1();
-
+    Solution1 s1 =  new Solution1();
+    
     int[][] input1 = new int[][]{
-      {1,3},{2,6},{8,10},{15,18}
+      {1,5},{2,3}
     };
-    int[][] out1 =  s1.merge(input1);
+    int[] ni = new int[]{2,3};
+    int[][] out1 =  s1.insert(input1,ni);
     System.out.println(Arrays.deepToString(out1));
-
-    int[][] input2 = new int[][]{
-      {1,4},{4,5}
-    };
-    int[][] out2 =  s1.merge(input2);
-    System.out.println(Arrays.deepToString(out2));
-
-    int[][] input3 = new int[][]{
-      {1,4},{0,0}
-    };
-    int[][] out3 =  s1.merge(input3);
-    System.out.println(Arrays.deepToString(out3));
 
   }
 }
