@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p0021/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0021/ListNode.java" afterDir="false" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,12 +22,15 @@
     <favorites_list name="leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/p0057/Solution1.java">
+        <entry file="file://$PROJECT_DIR$/src/p0147/Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="6" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/p0438/Solution1.java" />
         <option value="$PROJECT_DIR$/src/CLRS/coutingsort.java" />
         <option value="$PROJECT_DIR$/src/CLRS/CoutingSort.java" />
         <option value="$PROJECT_DIR$/src/CLRS/heapsort.java" />
@@ -96,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/p0703/solution2/KthLargest.java" />
         <option value="$PROJECT_DIR$/src/p0057/Solution1.java" />
         <option value="$PROJECT_DIR$/src/p0057/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/p0147/Solution1.java" />
       </list>
     </option>
   </component>
@@ -112,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -119,6 +125,11 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name=".vscode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -153,6 +164,12 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="p0147" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="p0215" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -179,11 +196,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563262872007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563550760876" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -223,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.Solution1">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -368,13 +384,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p0378.Solution2" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p0147.Solution1" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0378.*" />
+          <option name="PATTERN" value="p0147.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -462,19 +478,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.KthLargest" />
       <item itemvalue="Application.KthLargest (1)" />
       <item itemvalue="Application.Solution1 (2)" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution1 (2)" />
         <item itemvalue="Application.KthLargest (1)" />
         <item itemvalue="Application.KthLargest" />
-        <item itemvalue="Application.Solution2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +525,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23182553" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25040388" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -518,7 +534,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.29927006" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3289256" />
@@ -527,9 +543,9 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5016155" side_tool="true" weight="0.3355372" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.31900826" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32561985" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32554746" />
       <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.4627737" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.5328467" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -745,13 +761,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CLRS/CoutingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CLRS/BucketSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1081,8 +1090,18 @@
     <entry file="file://$PROJECT_DIR$/src/p0057/Solution2.java" />
     <entry file="file://$PROJECT_DIR$/src/p0057/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+        <state relative-caret-position="591">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0147/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="6" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
