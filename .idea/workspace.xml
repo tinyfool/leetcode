@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0349/Soultion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0349/Solution1.java" afterDir="false" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,10 +22,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/p0350/Solution1.java">
+        <entry file="file://$PROJECT_DIR$/src/p0922/Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="5" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,9 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CLRS/LinkedList2.java" />
-        <option value="$PROJECT_DIR$/src/CLRS/pair.java" />
-        <option value="$PROJECT_DIR$/src/CLRS/DirectAddress.java" />
         <option value="$PROJECT_DIR$/src/CLRS/hashbase.java" />
         <option value="$PROJECT_DIR$/src/CLRS/FloatKeyPair.java" />
         <option value="$PROJECT_DIR$/src/CLRS/HashTableBase.java" />
@@ -97,6 +96,9 @@
         <option value="$PROJECT_DIR$/src/p0349/Soultion1.java" />
         <option value="$PROJECT_DIR$/src/p0350/Soultion1.java" />
         <option value="$PROJECT_DIR$/src/p0350/Solution1.java" />
+        <option value="$PROJECT_DIR$/src/p0524/Solution1.java" />
+        <option value="$PROJECT_DIR$/src/p0922/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/p0922/Solution1.java" />
       </list>
     </option>
   </component>
@@ -113,6 +115,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,16 +159,20 @@
               <item name="p0350" type="462c0819:PsiDirectoryNode" />
               <item name="Solution1" type="1a9f42e2:ClassTreeNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="p0922" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563624654640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563629742369" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -174,22 +182,22 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/p438" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="p0021" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p0021" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="p0922" />
       <recent name="p0350" />
       <recent name="p0242" />
       <recent name="p0057" />
       <recent name="p0378" />
-      <recent name="p0023" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/p0021" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/p438" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution1 (2)">
+  <component name="RunManager" selected="Application.Solution1 (5)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -363,13 +371,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p0147.Solution1" />
+    <configuration name="Solution1 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p0524.Solution1" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0147.*" />
+          <option name="PATTERN" value="p0524.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,19 +451,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution1 (1)" />
       <item itemvalue="Application.Solution1 (3)" />
       <item itemvalue="Application.Solution1 (4)" />
       <item itemvalue="Application.Solution1 (2)" />
+      <item itemvalue="Application.Solution1 (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1 (5)" />
         <item itemvalue="Application.Solution1 (2)" />
         <item itemvalue="Application.Solution1 (4)" />
         <item itemvalue="Application.Solution1 (3)" />
         <item itemvalue="Application.Solution1 (1)" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +498,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19789983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1914378" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -499,7 +507,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.29927006" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" visible="true" weight="0.29927006" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3289256" />
@@ -732,27 +740,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/p0004/Solution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p0004/Solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p0021/Solution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p0021/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1084,6 +1071,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0524/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0922/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0922/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="5" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
