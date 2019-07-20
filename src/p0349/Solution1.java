@@ -5,7 +5,7 @@ import java.util.HashMap;
 //Runtime: 2 ms, faster than 98.29% of Java online submissions for Intersection of Two Arrays.
 //Memory Usage: 37.3 MB, less than 87.72% of Java online submissions for Intersection of Two Arrays.
 
-public class Soultion1 {
+public class Solution1 {
 
     public int[] intersection(int[] nums1, int[] nums2) {
         HashMap<Integer,Boolean> h1 = new HashMap<>();
