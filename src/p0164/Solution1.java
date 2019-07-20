@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Solution1 {
 
     public int maxiumGap(int[] nums) {
-        
+
         if (nums.length<2)
             return 0;
         Arrays.sort(nums);
