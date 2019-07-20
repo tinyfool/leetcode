@@ -20,22 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/p1122/Solution1.java">
+        <entry file="file://$PROJECT_DIR$/src/p0020/Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="1451" column="20" selection-start-line="1451" selection-start-column="16" selection-end-line="1451" selection-end-column="20" />
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="2" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -60,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CLRS/HashTableBase.java" />
         <option value="$PROJECT_DIR$/src/CLRS/LinkedListNode.java" />
         <option value="$PROJECT_DIR$/src/CLRS/FloatKeyHashTable.java" />
         <option value="$PROJECT_DIR$/src/CLRS/BinarySearchTree.java" />
@@ -111,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/p0922/Solution1.java" />
         <option value="$PROJECT_DIR$/src/p0973/Solution1.java" />
         <option value="$PROJECT_DIR$/src/p1122/Solution1.java" />
+        <option value="$PROJECT_DIR$/src/p0020/Solution1.java" />
       </list>
     </option>
   </component>
@@ -178,7 +166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563633042241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563635081276" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -218,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution1 (1)">
+  <component name="RunManager" selected="Application.Solution1 (3)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -349,13 +337,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p0274.Solution1" />
+    <configuration name="Solution1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p0020.Solution1" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0274.*" />
+          <option name="PATTERN" value="p0020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,19 +445,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1 (4)" />
       <item itemvalue="Application.Solution1 (2)" />
       <item itemvalue="Application.Solution1 (5)" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution1 (1)" />
+      <item itemvalue="Application.Solution1 (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1 (3)" />
         <item itemvalue="Application.Solution1 (1)" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution1 (5)" />
         <item itemvalue="Application.Solution1 (2)" />
-        <item itemvalue="Application.Solution1 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -668,6 +656,18 @@
           <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/p0020/Solution1.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/p0020/Solution1.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -752,13 +752,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CLRS/DivideAndConquer/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CLRS/DivideAndConquer/SquareMatrixMultiply.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1096,6 +1089,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/p1122/Solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1103,13 +1106,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p1122/Solution1.java">
+    <entry file="file://$PROJECT_DIR$/src/p0020/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="2" selection-end-line="4" />
         </state>
       </provider>
     </entry>
