@@ -1,9 +1,8 @@
 package p0071;
 
 import java.util.Stack;
-//Runtime: 6 ms, faster than 40.84% of Java online submissions for Simplify Path.
-//        Memory Usage: 36.6 MB, less than 99.87% of Java online submissions for Simplify Path.
-
+//Runtime: 4 ms, faster than 89.36% of Java online submissions for Simplify Path.
+//        Memory Usage: 36 MB, less than 99.87% of Java online submissions for Simplify Path.
 public class Solution1 {
 
     public String simplifyPath(String path) {
@@ -23,14 +22,12 @@ public class Solution1 {
         }
         if (pathStack.size()==0)
             return "/";
-        String[] paths = new String[pathStack.size()];
-        int i = 0;
+        StringBuilder sb = new StringBuilder();
         for (String c:pathStack
              ) {
-            paths[i] = c;
-            i++;
+            sb.append("/").append(c);
         }
-        return "/"+String.join("/",paths);
+        return sb.toString();
     }
 
     public static void main(String[] args) {
