@@ -6,8 +6,8 @@ import java.util.Stack;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//Runtime: 5 ms, faster than 5.63% of Java online submissions for Backspace String Compare.
-//        Memory Usage: 35.1 MB, less than 100.00% of Java online submissions for Backspace String Compare.
+//Runtime: 2 ms, faster than 47.73% of Java online submissions for Backspace String Compare.
+//        Memory Usage: 35 MB, less than 100.00% of Java online submissions for Backspace String Compare.
 
 public class Solution {
 
@@ -38,7 +38,7 @@ public class Solution {
         }
 
         String word = sb.reverse().toString();
-        System.out.println(word);
+        //System.out.println(word);
         return word;
     }
 
