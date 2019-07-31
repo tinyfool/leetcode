@@ -13,8 +13,10 @@ public class ListNode {
 
         ListNode node = this;
         while (node!=null) {
-            System.out.println(node.val);
+            System.out.print(node.val);
+            System.out.print("->");
             node = node.next;
         }
+        System.out.println();
     }
 }
