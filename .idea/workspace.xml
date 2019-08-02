@@ -35,11 +35,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p0500/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/p0535/Codec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="4" column="100" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="100" />
+              <folding>
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +74,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/p0876/Solution.java" />
         <option value="$PROJECT_DIR$/src/p1019/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/p1019/Solution.java" />
         <option value="$PROJECT_DIR$/src/p0015/Solution.java" />
@@ -144,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/p0451/Solution.java" />
         <option value="$PROJECT_DIR$/src/p0500/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/p0500/Solution.java" />
+        <option value="$PROJECT_DIR$/src/p0535/Codec.java" />
       </list>
     </option>
   </component>
@@ -235,7 +248,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564776738787" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564777605986" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -611,7 +624,7 @@
     <frame x="0" y="23" width="1280" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2197092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2197092" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -620,7 +633,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49596122" visible="true" weight="0.38016528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49596122" visible="true" weight="0.38016528" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32846716" />
@@ -1070,16 +1083,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/p0049/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p0136/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1559,6 +1562,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0535/Codec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="4" column="100" selection-start-line="4" selection-start-column="100" selection-end-line="4" selection-end-column="100" />
+          <folding>
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
