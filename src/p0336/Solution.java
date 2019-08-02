@@ -3,8 +3,8 @@ package p0336;
 import java.util.ArrayList;
 import java.util.List;
 
-//Runtime: 738 ms, faster than 5.02% of Java online submissions for Palindrome Pairs.
-//Memory Usage: 44.8 MB, less than 79.54% of Java online submissions for Palindrome Pairs.
+//Runtime: 281 ms, faster than 6.42% of Java online submissions for Palindrome Pairs.
+//Memory Usage: 42.5 MB, less than 98.86% of Java online submissions for Palindrome Pairs.
 
 public class Solution {
 
@@ -15,8 +15,7 @@ public class Solution {
             for(int j=0;j<words.length;j++) {
                 if(i!=j) {
                     if(words[i].length()==0 || words[j].length()==0 || words[i].charAt(0)==words[j].charAt(words[j].length()-1) ) {
-                        String conn = words[i]+words[j];
-                        if(isPalindrome(conn)) {
+                        if(isPalindrome(words[i],words[j])) {
                             addOne(ret, i, j);
                         }
                     }
@@ -35,17 +34,26 @@ public class Solution {
     }
 
     //fron p0125
-    public boolean isPalindrome(String s) {
+    public boolean isPalindrome(String s1,String s2) {
 
-        if(s==null)
-            return true;
-        if(s.length()==0)
-            return true;
-
-        //s = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
-        int half = s.length()/2;
+        int len = s1.length()+s2.length();
+        int half = len/2;
         for(int i=0;i<half;i++) {
-            if (s.charAt(i)!=s.charAt(s.length()-i-1))
+            int j = len-i-1;
+            char b;
+            char e;
+            if(i<s1.length()) {
+                b = s1.charAt(i);
+            }else {
+                b = s2.charAt(i-s1.length());
+            }
+
+            if(j<s1.length()) {
+                e = s1.charAt(j);
+            }else {
+                e = s2.charAt(j-s1.length());
+            }
+            if (b!=e)
                 return false;
         }
         return true;
