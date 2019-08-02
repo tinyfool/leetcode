@@ -36,23 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/p0355/Twitter.java">
+        <entry file="file://$PROJECT_DIR$/src/p0380/RandomizedSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p0355/TwitterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -94,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/p0142/Solution.java" />
-        <option value="$PROJECT_DIR$/src/p0143/Solution.java" />
         <option value="$PROJECT_DIR$/src/p0160/Solution.java" />
         <option value="$PROJECT_DIR$/src/p0203/Solution.java" />
         <option value="$PROJECT_DIR$/src/p0234/Solution.java" />
@@ -145,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/p0347/Solution.java" />
         <option value="$PROJECT_DIR$/src/p0355/TwitterTest.java" />
         <option value="$PROJECT_DIR$/src/p0355/Twitter.java" />
+        <option value="$PROJECT_DIR$/src/p0380/RandomizedSetTest.java" />
+        <option value="$PROJECT_DIR$/src/p0380/RandomizedSet.java" />
       </list>
     </option>
   </component>
@@ -236,7 +223,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564769437301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564771178755" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -252,11 +239,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p0380" />
       <recent name="p0355" />
       <recent name="p0347" />
       <recent name="p0336" />
       <recent name="p0125" />
-      <recent name="p0299" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -291,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwitterTest">
+  <component name="RunManager" selected="JUnit.RandomizedSetTest">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -408,16 +395,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomizedSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0336.*" />
+          <option name="PATTERN" value="p0380.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0336" />
-      <option name="MAIN_CLASS_NAME" value="p0336.SolutionTest" />
+      <option name="PACKAGE_NAME" value="p0380" />
+      <option name="MAIN_CLASS_NAME" value="p0380.RandomizedSetTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -537,19 +524,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest (3)" />
       <item itemvalue="JUnit.SolutionTest.test1" />
       <item itemvalue="JUnit.SolutionTest (4)" />
       <item itemvalue="JUnit.TwitterTest.test1" />
       <item itemvalue="JUnit.TwitterTest" />
+      <item itemvalue="JUnit.RandomizedSetTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RandomizedSetTest" />
         <item itemvalue="JUnit.TwitterTest" />
         <item itemvalue="JUnit.TwitterTest.test1" />
         <item itemvalue="JUnit.SolutionTest (4)" />
         <item itemvalue="JUnit.SolutionTest.test1" />
-        <item itemvalue="JUnit.SolutionTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -572,21 +559,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwitterTest - 2019.08.03 at 01h 59m 24s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterTest - 2019.08.03 at 02h 03m 33s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterTest - 2019.08.03 at 02h 03m 45s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterTest - 2019.08.03 at 02h 04m 00s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterTest - 2019.08.03 at 02h 05m 55s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TwitterTest - 2019.08.03 at 02h 06m 30s.xml">
       <configuration name="TwitterTest" configurationId="JUnit" />
     </history-entry>
@@ -601,6 +573,21 @@
     </history-entry>
     <history-entry file="TwitterTest - 2019.08.03 at 02h 09m 23s.xml">
       <configuration name="TwitterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwitterTest - 2019.08.03 at 02h 25m 56s.xml">
+      <configuration name="TwitterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedSetTest - 2019.08.03 at 02h 25m 58s.xml">
+      <configuration name="RandomizedSetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedSetTest - 2019.08.03 at 02h 26m 27s.xml">
+      <configuration name="RandomizedSetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedSetTest - 2019.08.03 at 02h 27m 25s.xml">
+      <configuration name="RandomizedSetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedSetTest - 2019.08.03 at 02h 38m 17s.xml">
+      <configuration name="RandomizedSetTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1057,30 +1044,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/p0002/Solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="31" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p0725/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p0430/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
@@ -1194,17 +1157,6 @@
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1529,6 +1481,41 @@
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="248" column="12" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0380/RandomizedSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4695">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0380/RandomizedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
