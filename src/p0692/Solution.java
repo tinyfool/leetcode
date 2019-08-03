@@ -1,6 +1,8 @@
 package p0692;
 
 import java.util.*;
+//Runtime: 6 ms, faster than 96.61% of Java online submissions for Top K Frequent Words.
+//Memory Usage: 38.5 MB, less than 77.95% of Java online submissions for Top K Frequent Words.
 
 public class Solution {
 
@@ -19,7 +21,13 @@ public class Solution {
 
                 Integer i1 = (Integer) o1.getValue();
                 Integer i2 = (Integer) o2.getValue();
-                return i2.compareTo(i1);
+                int compared = i2.compareTo(i1);
+                if(compared==0) {
+                    String s1 = (String) o1.getKey();
+                    String s2 = (String) o2.getKey();
+                    return s1.compareTo(s2);
+                }
+                return compared;
             }
         });
         List<String> ret = new ArrayList<>();
