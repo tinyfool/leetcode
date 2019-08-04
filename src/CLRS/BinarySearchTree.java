@@ -1,7 +1,5 @@
 package CLRS;
 
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
-
 class BSTNode {
 
     int key;

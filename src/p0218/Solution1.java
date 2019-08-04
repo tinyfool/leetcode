@@ -1,5 +1,4 @@
 package p0218;
-import sun.java2d.pipe.SolidTextRenderer;
 
 import java.util.List;
 

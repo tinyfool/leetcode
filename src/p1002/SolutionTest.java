@@ -1,7 +1,6 @@
 package p1002;
 
 import org.junit.jupiter.api.Test;
-import sun.java2d.pipe.SolidTextRenderer;
 
 import java.util.ArrayList;
 import java.util.List;
