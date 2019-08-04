@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002" />
+    <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p0098/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0098/SolutionTest.java" afterDir="false" />
+    </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,19 +40,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/p0098/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/p0099/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="101" selection-start-line="4" selection-start-column="101" selection-end-line="4" selection-end-column="101" />
+            <state relative-caret-position="120">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p0098/SolutionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/p0099/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/p0380/RandomizedSetTest.java" />
-        <option value="$PROJECT_DIR$/src/p0380/RandomizedSet.java" />
         <option value="$PROJECT_DIR$/src/p0381/RandomizedCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/p0381/RandomizedCollection.java" />
         <option value="$PROJECT_DIR$/src/p0387/SolutionTest.java" />
@@ -138,12 +143,14 @@
         <option value="$PROJECT_DIR$/src/p0884/Solution.java" />
         <option value="$PROJECT_DIR$/src/p1002/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/p1002/Solution.java" />
-        <option value="$PROJECT_DIR$/src/helper/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/p0094/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/p0094/Solution.java" />
         <option value="$PROJECT_DIR$/src/p0700/Solution.java" />
-        <option value="$PROJECT_DIR$/src/p0098/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/p0098/Solution.java" />
+        <option value="$PROJECT_DIR$/src/p0098/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/helper/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/p0099/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/p0099/Solution.java" />
       </list>
     </option>
   </component>
@@ -230,7 +237,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564883079307" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564887525106" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -246,11 +253,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p0099" />
       <recent name="p0098" />
       <recent name="p0094" />
       <recent name="p1002" />
       <recent name="p0884" />
-      <recent name="p0706" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -285,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (3)">
+  <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -403,6 +410,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0099.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0099" />
+      <option name="MAIN_CLASS_NAME" value="p0099.Solution1Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0099.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0099" />
+      <option name="MAIN_CLASS_NAME" value="p0099.Solution1Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -418,21 +457,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p0884.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p0884" />
-      <option name="MAIN_CLASS_NAME" value="p0884.SolutionTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -443,21 +467,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="p0098" />
       <option name="MAIN_CLASS_NAME" value="p0098.SolutionTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p1002.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p1002" />
-      <option name="MAIN_CLASS_NAME" value="p1002.SolutionTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -530,19 +539,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest (2)" />
-      <item itemvalue="JUnit.SolutionTest" />
       <item itemvalue="JUnit.SolutionTest (1)" />
       <item itemvalue="JUnit.SolutionTest (3)" />
       <item itemvalue="JUnit.SolutionTest.test1" />
+      <item itemvalue="JUnit.Solution1Test.test1" />
+      <item itemvalue="JUnit.Solution1Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Solution1Test" />
+        <item itemvalue="JUnit.Solution1Test.test1" />
         <item itemvalue="JUnit.SolutionTest (3)" />
         <item itemvalue="JUnit.SolutionTest.test1" />
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -565,35 +574,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 01h 29m 25s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 48m 57s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 01h 33m 32s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 48m 59s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 24m 39s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 49m 25s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 26m 12s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 50m 19s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 27m 36s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 50m 23s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 28m 42s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 51m 33s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 30m 34s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 53m 16s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 30m 36s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 56m 42s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 42m 57s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_test1_(1) - 2019.08.04 at 10h 56m 44s.xml">
+      <configuration name="SolutionTest.test1 (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_(3) - 2019.08.04 at 09h 44m 09s.xml">
-      <configuration name="SolutionTest (3)" configurationId="JUnit" />
+    <history-entry file="SolutionTest_(2) - 2019.08.04 at 10h 56m 52s.xml">
+      <configuration name="SolutionTest (2)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -618,7 +627,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49596122" visible="true" weight="0.28760332" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49596122" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32846716" />
@@ -629,7 +638,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.31735536" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32231405" />
       <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
-      <window_info anchor="bottom" x="21" y="259" width="1238" height="305" id="Debug" order="13" sideWeight="0.50403875" weight="0.47768596" />
+      <window_info anchor="bottom" x="21" y="259" width="1238" height="305" id="Debug" order="13" sideWeight="0.50403875" weight="0.41157025" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -995,6 +1004,18 @@
           <properties />
           <option name="timeStamp" value="249" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/p0099/Solution.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/p0099/Solution.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1086,30 +1107,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/p0380/RandomizedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p0381/RandomizedCollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p0381/RandomizedCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="60" selection-start-line="3" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p0389/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1519,17 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p0094/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1547,27 +1533,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/p0098/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        <state relative-caret-position="330">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="7" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p0098/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        <state relative-caret-position="301">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p0098/Solution.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="101" selection-start-line="4" selection-start-column="101" selection-end-line="4" selection-end-column="101" />
+        <state relative-caret-position="134">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0099/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p0099/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
