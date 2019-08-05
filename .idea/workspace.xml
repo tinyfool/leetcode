@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CLRS/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CLRS/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0099/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0099/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0100/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0100/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0179/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0179/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0218/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0218/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0781/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0781/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0884/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0884/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1002/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1002/SolutionTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,11 +106,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="697" />
-  </component>
   <component name="ProjectId" id="1Oy05m9m5y9vzTScfWevRA6dNcM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -142,26 +127,25 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p0146" />
+      <recent name="p0102" />
       <recent name="p0101" />
       <recent name="p0100" />
       <recent name="p0099" />
-      <recent name="p0098" />
-      <recent name="p0094" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/p438" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="p0021" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p0021" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="p0219" />
@@ -170,8 +154,9 @@
       <recent name="p0350" />
       <recent name="p0242" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/p0021" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/p438" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (2)">
+  <component name="RunManager" selected="JUnit.SolutionTest (3)">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -303,50 +288,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LRUCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0099.*" />
+          <option name="PATTERN" value="p0146.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0099" />
-      <option name="MAIN_CLASS_NAME" value="p0099.Solution1Test" />
+      <option name="PACKAGE_NAME" value="p0146" />
+      <option name="MAIN_CLASS_NAME" value="p0146.LRUCacheTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LRUCacheTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0099.*" />
+          <option name="PATTERN" value="p0146.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0099" />
-      <option name="MAIN_CLASS_NAME" value="p0099.Solution1Test" />
+      <option name="PACKAGE_NAME" value="p0146" />
+      <option name="MAIN_CLASS_NAME" value="p0146.LRUCacheTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p1002.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p1002" />
-      <option name="MAIN_CLASS_NAME" value="p1002.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,17 +337,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0100.*" />
+          <option name="PATTERN" value="p0102.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0100" />
-      <option name="MAIN_CLASS_NAME" value="p0100.SolutionTest" />
+      <option name="PACKAGE_NAME" value="p0102" />
+      <option name="MAIN_CLASS_NAME" value="p0102.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0102.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0102" />
+      <option name="MAIN_CLASS_NAME" value="p0102.SolutionTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -444,19 +430,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Solution1Test.test1" />
-      <item itemvalue="JUnit.Solution1Test" />
-      <item itemvalue="JUnit.SolutionTest" />
-      <item itemvalue="JUnit.SolutionTest (1)" />
       <item itemvalue="JUnit.SolutionTest (2)" />
+      <item itemvalue="JUnit.SolutionTest (3)" />
+      <item itemvalue="JUnit.LRUCacheTest.test1" />
+      <item itemvalue="JUnit.LRUCacheTest" />
+      <item itemvalue="JUnit.SolutionTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (3)" />
+        <item itemvalue="JUnit.SolutionTest.test1" />
+        <item itemvalue="JUnit.LRUCacheTest" />
+        <item itemvalue="JUnit.LRUCacheTest.test1" />
         <item itemvalue="JUnit.SolutionTest (2)" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.Solution1Test" />
-        <item itemvalue="JUnit.Solution1Test.test1" />
       </list>
     </recent_temporary>
   </component>
