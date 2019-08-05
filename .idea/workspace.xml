@@ -121,7 +121,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p0103" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p0104" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -156,6 +156,7 @@
       <recent name="p0242" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p0104" />
       <recent name="$PROJECT_DIR$/src/p0103" />
       <recent name="$PROJECT_DIR$/src/p0021" />
     </key>
@@ -172,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -305,18 +306,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCacheTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0146.*" />
+          <option name="PATTERN" value="p0104.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0146" />
-      <option name="MAIN_CLASS_NAME" value="p0146.LRUCacheTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="p0104" />
+      <option name="MAIN_CLASS_NAME" value="p0104.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -432,18 +432,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SolutionTest (3)" />
-      <item itemvalue="JUnit.LRUCacheTest.test1" />
       <item itemvalue="JUnit.LRUCacheTest" />
       <item itemvalue="JUnit.SolutionTest.test1" />
       <item itemvalue="JUnit.SolutionTest" />
+      <item itemvalue="JUnit.SolutionTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest (3)" />
         <item itemvalue="JUnit.SolutionTest.test1" />
         <item itemvalue="JUnit.LRUCacheTest" />
-        <item itemvalue="JUnit.LRUCacheTest.test1" />
       </list>
     </recent_temporary>
   </component>
