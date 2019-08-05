@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002" />
+    <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,11 +149,11 @@
       <recent name="p0021" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="p0145" />
       <recent name="p0117" />
       <recent name="p0110" />
       <recent name="p0219" />
       <recent name="p0206" />
-      <recent name="p0922" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/p0107" />
