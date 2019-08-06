@@ -1,6 +1,7 @@
 /**
  * Created by haopeiqiang on 2017/3/28.
  */
+package p0461;
 public class Solution461 {
 
     public int hammingDistance(int x, int y) {

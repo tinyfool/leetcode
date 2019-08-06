@@ -1,9 +1,12 @@
-import java.util.Scanner;
-import java.util.Stack;
-
 /**
  * Created by haopeiqiang on 2017/3/28.
  */
+package p0476;
+
+
+import java.util.Scanner;
+import java.util.Stack;
+
 public class Solution476 {
     public int findComplement(int num) {
 

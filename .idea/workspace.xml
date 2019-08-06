@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
-      <change afterPath="$PROJECT_DIR$/src/p0226/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution226.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution029.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0029/Solution029.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution050.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0050/Solution050.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution147.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0147/Solution147.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution461.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0461/Solution461.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution476.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution476.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
