@@ -13,12 +13,8 @@ import helper.TreeNode;
 
 public class Solution {
 
-    TreeNode ret;
-    int found = -1;
-
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
-        ret = root;
         return lowestCommonAncestorCurr(root,p,q);
     }
 
