@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution029.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0029/Solution029.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution050.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0050/Solution050.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution147.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0147/Solution147.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution461.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0461/Solution461.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution476.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution476.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lfubst/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LFU_BST_TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lfubst/LFU_BST_TreeNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,27 +41,6 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sort</find>
-      <find>assertEquals</find>
-      <find>true</find>
-      <find>int count</find>
-      <find>Palindrome</find>
-      <find>is</find>
-      <find>&quot;</find>
-      <find>count(L</find>
-      <find>],</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>'</replace>
-      <replace>);\r\n</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/p0725</dir>
-      <dir>$PROJECT_DIR$/src</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,6 +127,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lfu_bst" />
       <recent name="p0021" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -536,8 +513,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution476.java</url>
-          <line>9</line>
+          <url>file://$PROJECT_DIR$/src/p0476/Solution476.java</url>
+          <line>12</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CLRS/LinkedList.java</url>
