@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0350/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0350/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0606/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0606/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p0236" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p1115" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -122,18 +120,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/p438" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="p0460" />
       <recent name="lfubst" />
       <recent name="lfu_bst" />
       <recent name="p0021" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/p0236" />
-      <recent name="$PROJECT_DIR$/src/p0107" />
-      <recent name="$PROJECT_DIR$/src/p0104" />
-      <recent name="$PROJECT_DIR$/src/p0103" />
-      <recent name="$PROJECT_DIR$/src/p0021" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="p0145" />
@@ -142,9 +137,12 @@
       <recent name="p0219" />
       <recent name="p0206" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/p438" />
-      <recent name="$PROJECT_DIR$/data" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p1115" />
+      <recent name="$PROJECT_DIR$/src/p0236" />
+      <recent name="$PROJECT_DIR$/src/p0107" />
+      <recent name="$PROJECT_DIR$/src/p0104" />
+      <recent name="$PROJECT_DIR$/src/p0103" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Foo">
+  <component name="RunManager" selected="Application.FooBar2">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -293,24 +291,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="FooBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p1115.FooBar" />
+      <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p1115.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FooBar2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p1115.FooBar2" />
       <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0515.*" />
+          <option name="PATTERN" value="p1115.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0515" />
-      <option name="MAIN_CLASS_NAME" value="p0515.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -342,23 +352,6 @@
       <option name="PACKAGE_NAME" value="p0606" />
       <option name="MAIN_CLASS_NAME" value="p0606.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.test1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p0572.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p0572" />
-      <option name="MAIN_CLASS_NAME" value="p0572.SolutionTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -415,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest (1)" />
-      <item itemvalue="JUnit.SolutionTest.test1 (2)" />
+      <item itemvalue="Application.Foo" />
       <item itemvalue="JUnit.SolutionTest (2)" />
       <item itemvalue="JUnit.SolutionTest" />
-      <item itemvalue="Application.Foo" />
+      <item itemvalue="Application.FooBar" />
+      <item itemvalue="Application.FooBar2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FooBar2" />
+        <item itemvalue="Application.FooBar" />
         <item itemvalue="Application.Foo" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest (2)" />
-        <item itemvalue="JUnit.SolutionTest.test1 (2)" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
       </list>
     </recent_temporary>
   </component>
