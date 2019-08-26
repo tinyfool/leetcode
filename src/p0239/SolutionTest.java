@@ -13,7 +13,6 @@ class SolutionTest {
 
     Solution solution = new Solution();
     Solution2 solution2 = new Solution2();
-    Solution3 solution3 = new Solution3();
 
     @Test
     void test1() {
@@ -21,6 +20,5 @@ class SolutionTest {
         int[] excepts = new int[]{3,3,5,5,6,7};
         assertArrayEquals(excepts,solution.maxSlidingWindow(nums,3));
         assertArrayEquals(excepts,solution2.maxSlidingWindow(nums,3));
-        assertArrayEquals(excepts,solution3.maxSlidingWindow(nums,3));
     }
 }
