@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
 
 //Runtime: 110 ms, faster than 73.71% of Java online submissions for Find Median from Data Stream.
 //Memory Usage: 67.2 MB, less than 50.85% of Java online submissions for Find Median from Data Stream.
-    
+
 public class MedianFinder {
     PriorityQueue<Integer> top;
     PriorityQueue<Integer> bottom;

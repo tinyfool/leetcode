@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p0295/MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0295/MedianFinder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,11 +112,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p0313" />
       <recent name="p0295" />
       <recent name="p0264" />
       <recent name="p0263" />
       <recent name="p0239" />
-      <recent name="p0218" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -157,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MedianFinderTest.test1">
+  <component name="RunManager" selected="JUnit.SolutionTest.test">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -348,17 +349,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0239.*" />
+          <option name="PATTERN" value="p0313.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0239" />
-      <option name="MAIN_CLASS_NAME" value="p0239.SolutionTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="p0313" />
+      <option name="MAIN_CLASS_NAME" value="p0313.SolutionTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -416,19 +417,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest.test1" />
       <item itemvalue="JUnit.SolutionTest" />
       <item itemvalue="JUnit.SolutionTest (1)" />
       <item itemvalue="JUnit.SolutionTest (2)" />
       <item itemvalue="JUnit.MedianFinderTest.test1" />
+      <item itemvalue="JUnit.SolutionTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.test" />
         <item itemvalue="JUnit.MedianFinderTest.test1" />
         <item itemvalue="JUnit.SolutionTest (2)" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -755,6 +756,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="result[6]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
