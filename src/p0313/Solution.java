@@ -12,7 +12,7 @@ import java.util.Set;
 
 //Runtime: 76 ms, faster than 17.26% of Java online submissions for Super Ugly Number.
 //Memory Usage: 41.9 MB, less than 50.00% of Java online submissions for Super Ugly Number.
-    
+
 public class Solution {
 
     public int nthSuperUglyNumber(int n, int[] primes) {
