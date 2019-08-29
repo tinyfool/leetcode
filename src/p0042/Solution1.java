@@ -1,34 +1,33 @@
 package p0042;
 
 import java.util.Stack;
-//暂时跳过
+
+//Runtime: 1 ms, faster than 98.21% of Java online submissions for Trapping Rain Water.
+//Memory Usage: 37.7 MB, less than 95.89% of Java online submissions for Trapping Rain Water.
+
 public class Solution1 {
 
     public int trap(int[] height) {
-
-        Stack<Integer> hs = new Stack<>();
         int sum = 0;
-        int max = 0;
-        for(int i = 1;i<height.length;i++) {
-
-            if(height[i-1]>height[i]) {
-                if(hs.size()>0) {
-                    int left = hs.pop();
-                    int low = Math.min(height[left],height[i-1]);
-                    for(int j=left;j<i-1;j++) {
-                        sum = sum + low - height[j];
-                    }
-                }
-                hs.push(i-1);
+        int[] left = new int[height.length + 1];
+        int[] right = new int[height.length + 1];
+        int leftMax = 0;
+        int rightMax = 0;
+        for (int i = 0; i < height.length; i++) {
+            if(height[i]>leftMax) {
+                leftMax = height[i];
+            }
+            left[i+1] = leftMax;
+            if(height[height.length-i-1]>rightMax) {
+                rightMax = height[height.length-i-1];
+            }
+            right[height.length-i-1]=rightMax;
+        }
+        for (int i = 0; i <height.length ; i++) {
+            if(height[i]<Math.min(left[i],right[i])) {
+                sum+= Math.min(left[i],right[i])-height[i];
             }
         }
         return sum;
-    }
-
-    public static void main(String[] args) {
-
-        int[] h = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
-        Solution1 s1 = new Solution1();
-        System.out.println(s1.trap(h));
     }
 }
