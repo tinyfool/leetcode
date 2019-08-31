@@ -108,16 +108,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p0044" />
       <recent name="p0042" />
       <recent name="p0373" />
       <recent name="p0313" />
       <recent name="p0295" />
-      <recent name="p0264" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -159,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solution1Test">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -279,86 +279,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p0042.Solution1" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p0042.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0042.*" />
+          <option name="PATTERN" value="p0044.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0042" />
-      <option name="MAIN_CLASS_NAME" value="p0042.Solution1Test" />
+      <option name="PACKAGE_NAME" value="p0044" />
+      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0373.*" />
+          <option name="PATTERN" value="p0044.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0373" />
-      <option name="MAIN_CLASS_NAME" value="p0373.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p0373.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p0373" />
-      <option name="MAIN_CLASS_NAME" value="p0373.SolutionTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="p0044" />
+      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0373.*" />
+          <option name="PATTERN" value="p0044.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0373" />
-      <option name="MAIN_CLASS_NAME" value="p0373.SolutionTest" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="p0044" />
+      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0044.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0044" />
+      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0044.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0044" />
+      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
+      <option name="METHOD_NAME" value="test9" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -416,19 +420,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest.test1" />
-      <item itemvalue="JUnit.SolutionTest" />
-      <item itemvalue="JUnit.SolutionTest.test4" />
-      <item itemvalue="Application.Solution1" />
-      <item itemvalue="JUnit.Solution1Test" />
+      <item itemvalue="JUnit.SolutionTest (1)" />
+      <item itemvalue="JUnit.SolutionTest.test8" />
+      <item itemvalue="JUnit.SolutionTest.test9" />
+      <item itemvalue="JUnit.SolutionTest.test10" />
+      <item itemvalue="JUnit.SolutionTest.test11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Solution1Test" />
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="JUnit.SolutionTest.test4" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.test1" />
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.test10" />
+        <item itemvalue="JUnit.SolutionTest.test11" />
+        <item itemvalue="JUnit.SolutionTest.test9" />
+        <item itemvalue="JUnit.SolutionTest.test8" />
       </list>
     </recent_temporary>
   </component>
@@ -769,5 +773,10 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$SolutionTest__1_.ic" NAME="SolutionTest (1) Coverage Results" MODIFIED="1567222470341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p0044.*</FILTER>
+    </SUITE>
   </component>
 </project>
