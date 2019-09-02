@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p0044/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0044/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p0373/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0373/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p0373/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0373/SolutionTest.java" afterDir="false" />
     </list>
@@ -37,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+  <component name="RunManager" selected="JUnit.SolutionTest.test4">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -297,11 +298,14 @@
       <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="359203252547491" />
+      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -311,14 +315,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="p0044" />
       <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
-      <option name="METHOD_NAME" value="test10" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -328,7 +332,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="p0044" />
       <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
-      <option name="METHOD_NAME" value="test11" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0044.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0044" />
+      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -346,23 +367,6 @@
       <option name="PACKAGE_NAME" value="p0044" />
       <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
       <option name="METHOD_NAME" value="test8" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p0044.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p0044" />
-      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
-      <option name="METHOD_NAME" value="test9" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -421,18 +425,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SolutionTest (1)" />
+      <item itemvalue="JUnit.SolutionTest.test6" />
       <item itemvalue="JUnit.SolutionTest.test8" />
-      <item itemvalue="JUnit.SolutionTest.test9" />
-      <item itemvalue="JUnit.SolutionTest.test10" />
-      <item itemvalue="JUnit.SolutionTest.test11" />
+      <item itemvalue="JUnit.SolutionTest.test3" />
+      <item itemvalue="JUnit.SolutionTest.test4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.test4" />
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest.test10" />
-        <item itemvalue="JUnit.SolutionTest.test11" />
-        <item itemvalue="JUnit.SolutionTest.test9" />
+        <item itemvalue="JUnit.SolutionTest.test3" />
         <item itemvalue="JUnit.SolutionTest.test8" />
+        <item itemvalue="JUnit.SolutionTest.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -762,13 +766,13 @@
           <line>57</line>
           <option name="timeStamp" value="288" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/p0044/Solution1.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="result[6]" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
