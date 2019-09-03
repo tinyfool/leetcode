@@ -7,6 +7,10 @@ import java.util.HashMap;
 /**
  * Created by haopeiqiang on 2016/10/16.
  */
+
+//Runtime: 32 ms, faster than 46.38% of Java online submissions for Longest Palindromic Substring.
+//Memory Usage: 37.6 MB, less than 57.26% of Java online submissions for Longest Palindromic Substring.
+
 public class Solution4 {
 
     public String longestPalindrome(String s) {
