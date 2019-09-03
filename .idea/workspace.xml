@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c2b4c2-5f95-4282-87bc-46e2e01eee22" name="Default" comment="finish p002">
+      <change afterPath="$PROJECT_DIR$/src/p0005/Solution2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p0044/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0044/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p0005/Solution1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p0373/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0373/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p0373/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p0373/SolutionTest.java" afterDir="false" />
     </list>
@@ -38,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -114,14 +115,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p0005" />
+      <recent name="p0010" />
       <recent name="p0044" />
       <recent name="p0042" />
       <recent name="p0373" />
-      <recent name="p0313" />
-      <recent name="p0295" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/p438" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="p0460" />
@@ -129,23 +134,19 @@
       <recent name="lfu_bst" />
       <recent name="p0021" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="p0005" />
+      <recent name="p0373" />
+      <recent name="p0239" />
+      <recent name="p0145" />
+      <recent name="p0117" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/p1115" />
       <recent name="$PROJECT_DIR$/src/p0236" />
       <recent name="$PROJECT_DIR$/src/p0107" />
       <recent name="$PROJECT_DIR$/src/p0104" />
       <recent name="$PROJECT_DIR$/src/p0103" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="p0373" />
-      <recent name="p0239" />
-      <recent name="p0145" />
-      <recent name="p0117" />
-      <recent name="p0110" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/p438" />
-      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.test4">
+  <component name="RunManager" selected="JUnit.Solution4Test">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -286,87 +287,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution1Test.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0044.*" />
+          <option name="PATTERN" value="p0005.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0044" />
-      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
+      <option name="PACKAGE_NAME" value="p0005" />
+      <option name="MAIN_CLASS_NAME" value="p0005.Solution1Test" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2Test.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0005.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0005" />
+      <option name="MAIN_CLASS_NAME" value="p0005.Solution2Test" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p0005.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p0005" />
+      <option name="MAIN_CLASS_NAME" value="p0005.Solution3Test" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <RunnerSettings RunnerId="Debug with VisualVM">
-        <option name="visualVMId" value="359203252547491" />
-      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0044.*" />
+          <option name="PATTERN" value="p0005.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0044" />
-      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="p0005" />
+      <option name="MAIN_CLASS_NAME" value="p0005.Solution4Test" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution4Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p0044.*" />
+          <option name="PATTERN" value="p0005.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p0044" />
-      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p0044.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p0044" />
-      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p0044.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p0044" />
-      <option name="MAIN_CLASS_NAME" value="p0044.SolutionTest" />
-      <option name="METHOD_NAME" value="test8" />
+      <option name="PACKAGE_NAME" value="p0005" />
+      <option name="MAIN_CLASS_NAME" value="p0005.Solution4Test" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -424,19 +421,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest (1)" />
-      <item itemvalue="JUnit.SolutionTest.test6" />
-      <item itemvalue="JUnit.SolutionTest.test8" />
-      <item itemvalue="JUnit.SolutionTest.test3" />
-      <item itemvalue="JUnit.SolutionTest.test4" />
+      <item itemvalue="JUnit.Solution3Test" />
+      <item itemvalue="JUnit.Solution2Test.test8" />
+      <item itemvalue="JUnit.Solution1Test.test8" />
+      <item itemvalue="JUnit.Solution4Test" />
+      <item itemvalue="JUnit.Solution4Test.test1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.test4" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest.test3" />
-        <item itemvalue="JUnit.SolutionTest.test8" />
-        <item itemvalue="JUnit.SolutionTest.test6" />
+        <item itemvalue="JUnit.Solution4Test" />
+        <item itemvalue="JUnit.Solution4Test.test1" />
+        <item itemvalue="JUnit.Solution1Test.test8" />
+        <item itemvalue="JUnit.Solution2Test.test8" />
+        <item itemvalue="JUnit.Solution3Test" />
       </list>
     </recent_temporary>
   </component>

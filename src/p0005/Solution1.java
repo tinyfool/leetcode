@@ -1,49 +1,56 @@
 package p0005;
+
+import javafx.util.Pair;
+
+import java.util.HashMap;
+
 /**
  * Created by haopeiqiang on 2016/10/16.
  */
+
+
 public class Solution1 {
 
-
-
-    public boolean isPalindrome(String s) {
-
-        for (int i = 0; i < s.length()/2+1; i++) {
-
-            if(s.charAt(i)!=s.charAt(s.length()-i-1))
-                return false;
-        }
-        return true;
-    }
-
-
+    HashMap<String, Boolean> map = new HashMap<>();
 
     public String longestPalindrome(String s) {
 
-        String ret="";
+        String rs = new StringBuilder(s).reverse().toString();
+        String ret = "";
+        if (s.equals(rs))
+            return s;
+        for (int i = 0; i < s.length(); i++) {
 
-        for(int right = 0;right<s.length();right++) {
+            for (int j = i + 1; j <= s.length(); j++) {
 
+                String sub1 = s.substring(i, j);
+                if (!rs.contains(sub1)) {
 
+                    break;
+                } else {
+
+                    if (isPalindrome(sub1) && ret.length() < sub1.length()) {
+                        ret = sub1;
+                    }
+                }
+            }
         }
-
         return ret;
     }
 
-    public static void main(String[] argv) {
+    public boolean isPalindrome(String s) {
 
-        test1();
+        if (map.containsKey(s))
+            return map.get(s);
+        for (int i = 0; i < s.length() / 2 + 1; i++) {
+            if (s.charAt(i) != s.charAt(s.length() - i - 1)) {
+                map.put(s, false);
+                return false;
+            }
+        }
+        map.put(s, true);
+        return true;
     }
 
-    public static void test1() {
-
-        Solution1 solution1 = new Solution1();
-        String ret;
-
-        ret = solution1.longestPalindrome("abb");
-        System.out.println(ret);
-
-        ret =solution1.longestPalindrome("babad");
-        System.out.println(ret);
-    }
 }
+
